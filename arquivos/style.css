@@ -1,0 +1,138 @@
+.retangulo{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+padding: 50px;
+margin-left: 196px;
+flex-direction: column;
+border: 1px solid grey;
+background-color:lightgray;
+}
+.conteiner {
+width: 100%;
+height: 100%;
+flex-wrap: wrap;
+}
+.corpo-dentro {
+margin: auto;
+display: flex;
+}  
+@media screen and (max-width: 768px) {
+.corpo-dentro {
+    flex-direction: column; 
+}
+}
+.cards {
+padding: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-left: 76px;
+}
+.cards img{
+max-height:39vh!important ;
+object-fit: cover !important;
+transition:.3s ease all;
+cursor: pointer;
+border: 1px solid grey;
+}
+
+p{
+font-size: larger;
+text-align: justify;
+padding:  1rem;
+color:#5a5555bb;
+border-radius: 10px;
+}
+
+.conteudo{
+display: flex;
+border: 1px solid grey;
+gap: 15px;
+flex-direction: column;
+margin-left: 32px;
+}
+
+.button-image button{
+position: relative;
+background-color:#6495ed;
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+font-size: large;
+cursor:pointer;
+transition:.3s ease all;
+width: fit-content;
+top: -15px;
+left: 15px;
+}
+
+.conteudo h1{
+position: relative;
+top: -15px;
+left: 15px;
+
+}
+.accordion button{
+color: #6495ed;
+}
+.accordion{
+width: 100%;
+padding: 120px 120px 120px;
+}
+.row{
+width: 100%;
+padding: 120px 120px 120px;
+}
+.retangulo-curso{
+margin-left: 110px;
+}
+hr{
+height:5px; border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #990099 10px, #990099 20px), linear-gradient(to bottom, #eeeeee, #999999);
+}
+
+
+
+.retangulo-front{
+display: flex;
+width: 80%;
+padding: 50px;
+margin-left: 150px;
+flex-direction: column;
+border: 1px solid grey;
+background-color:lightgray;
+}
+
+
+.carousel img{
+height: 400px; 
+width: 500px;
+background-color: black;
+}
+
+.carousel{
+width: 1050px;
+margin: auto;
+padding:3%;
+background-color: black;
+border-radius:.4rem;
+box-shadow: rgba(0, 0, 0,.1) .1rem;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 45px;
+
+
+}
+
+a{
+text-decoration: none !important;
+color: #fff !important;
+}
+img{
+max-width: none !important ;
+}
